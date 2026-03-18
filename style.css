@@ -19,6 +19,11 @@ nav h2 {
     align-content: center;
 }
 
+.logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
 nav ul {
     display: flex;
     gap: 20px;
