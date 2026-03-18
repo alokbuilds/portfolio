@@ -103,3 +103,44 @@ nav a {
     background: #00bfff;
     color: black;
 }
+
+/* 🔥 Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 🔥 Fade In Animation */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 🔥 Button Glow */
+.btn, .btn-outline {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px #00bfff;
+}
+
+.btn-outline:hover {
+    box-shadow: 0 0 10px #00bfff;
+}
+
+/* 🔥 Image Animation */
+.hero-img img {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
