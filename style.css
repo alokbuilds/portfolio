@@ -84,8 +84,8 @@ nav a {
 
 /* SECTION */
 .section {
-    padding: 80px;
-    text-align: center;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* SKILLS */
