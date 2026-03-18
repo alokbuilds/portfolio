@@ -41,7 +41,9 @@ nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90vh;
+    min-height: 90vh;
+    flex-wrap: wrap;
+    padding: 40px 20px;
 }
 
 .hero span {
