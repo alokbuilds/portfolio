@@ -86,14 +86,8 @@ nav a {
 
 /* SECTION */
 .section {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease;
-}
-
-.section.show {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
 }
 
 /* SKILLS */
