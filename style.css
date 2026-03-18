@@ -10,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+    background: #020617;
 }
 
 nav ul {
@@ -106,6 +107,7 @@ nav a {
 
 
 
+
 /* 🔥 Smooth Scroll */
 html {
     scroll-behavior: smooth;
@@ -145,4 +147,11 @@ html {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0px); }
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
 }
