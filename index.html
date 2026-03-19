@@ -1,118 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Alok Kumar | Portfolio</title>
-    <link rel="icon" href="assets/alokbuilds-icon.png" sizes="32x32">
-    <link rel="icon" href="assets/alokbuilds-icon.png" sizes="16x16">
-    <link rel="apple-touch-icon" href="assets/alokbuilds-icon.png">
-
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Alok Kumar | Portfolio</title>
+  <link rel="icon" href="assets\alokbuilds-icon.png" sizes="32x32">
+  <link rel="icon" href="assets\alokbuilds-icon.png" sizes="16x16">
+  <link rel="apple-touch-icon" href="assets\alokbuilds-icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 🔥 NAVBAR -->
-<nav>
-    <h2 class="logo">
-        <a href="https://www.alokbuilds.in/"><img src="assets/alokbuilds-logo.png" alt="AlokBuilds"></a>
-    </h2>
-    <ul>
-        <li><a href="https://www.alokbuilds.in/">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">
+    <a href="https://www.alokbuilds.in/"><img src="assets\alokbuilds-logo.png" alt="AlokBuilds"></a>
+  </h2>
+
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
-<!-- 🔥 HERO -->
+<!-- HERO -->
 <section class="hero">
-    <div class="hero-text">
-        <h1>Hi, I'm <span>Alok Kumar</span></h1>
-        <p>Backend Developer (Python & Django)</p>
-        <p>I build scalable web applications and REST APIs.</p>
 
-        <p style="color:#22c55e;">🚀 Available for Internship</p>
+  <!-- LEFT -->
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Alok Kumar</span> 👋</h1>
 
-        <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="assets/resume.pdf" class="btn-outline">Resume</a>
-            <a href="https://github.com/alokbuilds" class="btn-outline">GitHub</a>
-            <a href="https://www.linkedin.com/in/alokbuilds/" class="btn-outline">LinkedIn</a>
-            <a href="mailto:alokbuilds.dev@gmail.com" class="btn">Hire Me</a>
-        </div>
-    </div>
+    <h2 id="typing"></h2>
 
-    <div class="hero-img">
-        <img src="assets/profile.jpg" alt="profile">
-    </div>
-</section>
-
-<!-- 🔥 ABOUT -->
-<section id="about" class="section">
-    <h2>About Me</h2>
     <p>
-        I am an MCA student specializing in Backend and Full Stack Development using Python and Django. I focus on building practical and scalable web applications with clean architecture and efficient performance
+      I build scalable, high-performance web applications
+      that solve real-world problems.
     </p>
-</section>
 
-<!-- 🔥 SKILLS -->
-<section id="skills" class="section">
-    <h2>Skills</h2>
-
-    <div class="skills">
-        <span>Python</span>
-        <span>Django</span>
-        <span>MySQL</span>
-        <span>REST API</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Bootstrap</span>
-        <span>Git</span>
-        <span>GitHub</span>
+    <div class="status">
+      <p>✔ Open to Internship</p>
+      <p>✔ Available for Freelance</p>
     </div>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn outline">Hire Me</a>
+    </div>
+
+    <div class="socials">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="assets\resume.pdf">Resume</a>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="hero-image">
+    <img src="assets\profile.jpg" alt="Alok">
+  </div>
+
 </section>
 
-<!-- 🔥 PROJECTS -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-container">
 
+    <!-- LEFT SIDE (TEXT) -->
+    <div class="about-text">
+      <h2>👨‍💻 About Me</h2>
+
+      <p>
+        I am an MCA student passionate about backend and full-stack development.
+        I love building scalable and real-world web applications using Python and Django.
+      </p>
+
+      <h3>🎯 My Focus</h3>
+
+      <ul>
+        <li>✔ Scalable Backend Systems</li>
+        <li>✔ REST API Development</li>
+        <li>✔ Clean Code Architecture</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT SIDE (IMAGE / ILLUSTRATION) -->
+    <div class="about-image">
+      <img src="about.png" alt="about illustration">
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>My Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+      <p>Python</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">
+      <p>Django</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+      <p>MySQL</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <p>JavaScript</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+      <p>HTML</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+      <p>CSS</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+      <p>Git</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+      <p>GitHub</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+
+    <!-- PROJECT 1 -->
     <div class="project-card">
+      <div class="project-img">
+        <img src="project1.png" alt="MediConnect">
+      </div>
+
+      <div class="project-content">
         <h3>MediConnect</h3>
-        <p>Doctor Appointment Booking System using Django</p>
+        <p>Doctor Appointment Booking System</p>
+
+        <p class="tech">⚙ Tech: Django, MySQL, Bootstrap</p>
 
         <ul>
-            <li>✔ User authentication</li>
-            <li>✔ Doctor management</li>
-            <li>✔ Admin dashboard</li>
-            <li>✔ Appointment booking</li>
+          <li>✔ User Authentication</li>
+          <li>✔ Admin Dashboard</li>
+          <li>✔ Appointment Booking</li>
         </ul>
 
-        <div class="project-btns">
-            <a href="https://github.com/alokbuilds/MediConnect" class="btn">GitHub</a>
-            <a href="https://mediconnect-akkb.onrender.com" class="btn-outline">Live Demo</a>
+        <div class="project-buttons">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank" class="outline">GitHub</a>
         </div>
+      </div>
     </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="project2.png" alt="Portfolio">
+      </div>
+
+      <div class="project-content">
+        <h3>Portfolio Website</h3>
+        <p>Personal Developer Portfolio</p>
+
+        <p class="tech">⚙ Tech: HTML, CSS, JavaScript</p>
+
+        <ul>
+          <li>✔ Responsive Design</li>
+          <li>✔ Smooth Animations</li>
+          <li>✔ Contact Form</li>
+        </ul>
+
+        <div class="project-buttons">
+          <a href="#">Live Demo</a>
+          <a href="#" class="outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="project3.png" alt="API Project">
+      </div>
+
+      <div class="project-content">
+        <h3>REST API System</h3>
+        <p>Backend API using Django REST</p>
+
+        <p class="tech">⚙ Tech: Django, DRF</p>
+
+        <ul>
+          <li>✔ CRUD APIs</li>
+          <li>✔ Token Auth</li>
+          <li>✔ JSON Responses</li>
+        </ul>
+
+        <div class="project-buttons">
+          <a href="#">Live Demo</a>
+          <a href="#" class="outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 
-<!-- 🔥 CONTACT -->
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: alokbuilds.dev@gmail.com</p>
-    <p>GitHub: github.com/alokbuilds</p>
-    <p>Location: India</p>
+<!-- WHY ME -->
+<section class="why">
+  <h2>Why Choose Me?</h2>
+  <div class="why-box">
+    <div>✔ Scalable Code</div>
+    <div>✔ Backend Expertise</div>
+    <div>✔ Real Projects</div>
+    <div>✔ Fast Learner</div>
+  </div>
 </section>
 
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Let's build something amazing 🚀</p>
 
-<!-- 🔥 FOOTER -->
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Send Message</button>
+  </form>
+</section>
+
 <footer>
-    <p>&copy; 2026 Alok Kumar. All rights reserved.</p>
+  © 2026 Alokbuilds 🚀
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
