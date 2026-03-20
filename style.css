@@ -5,7 +5,55 @@ body {
   transition: 0.3s;
   margin: 0;
 }
-/* LIGHT MODE */
+
+/* SWITCH */
+.switch {
+  position: relative;
+  width: 50px;
+  height: 25px;
+}
+
+/* Hide default checkbox */
+.switch input {
+  display: none;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background: #0f172a;
+  border: 1px solid #06b6d4;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+/* Circle */
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  background: #06b6d4;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+/* Toggle ON */
+input:checked + .slider {
+  background: #e2e8f0;
+}
+
+input:checked + .slider::before {
+  transform: translateX(24px);
+  background: #0f172a;
+}
+
+/* 🌞 LIGHT MODE */
 body.light {
   background: #f8fafc;
   color: #0f172a;
@@ -20,20 +68,6 @@ body.light .skill-card {
 /* Navbar */
 body.light .navbar {
   background: #ffffff;
-}
-
-/* Links */
-body.light a {
-  color: #0f172a;
-}
-
-#theme-toggle {
-  background: transparent;
-  border: 1px solid #06b6d4;
-  color: #06b6d4;
-  padding: 5px 10px;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 /* NAVBAR */
