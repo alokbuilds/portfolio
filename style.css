@@ -68,13 +68,33 @@ body.light .skill-card {
 
 /* Navbar */
 body.light .navbar {
-  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-body.light .btn {
-  color: black;
+/* LOGO */
+body.light .logo img {
+    width: 100px;
+    vertical-align: middle;
 }
 
+/* LINKS */
+body.light .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* LINK STYLE */
 body.light .nav-links a {
   position: relative;
   color: #000000;
@@ -82,6 +102,42 @@ body.light .nav-links a {
   font-size: 15px;
   transition: 0.3s;
 }
+
+/* 🔥 UNDERLINE ANIMATION */
+body.light .nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #06b6d4;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+body.light .nav-links a:hover::after {
+  width: 100%;
+}
+
+/* HOVER COLOR */
+body.light .nav-links a:hover {
+  color: #06b6d4;
+}
+
+/* ACTIVE LINK */
+body.light .nav-links a.active {
+  color: #06b6d4;
+}
+
+body.light .nav-links a.active::after {
+  width: 100%;
+}
+
+/* SCROLL EFFECT (optional glow) */
+body.light .navbar.scrolled {
+  box-shadow: 0 5px 20px rgba(6, 182, 212, 0.2);
+}
+
 
 /*----------- 🌙 DARK MODE -----------*/
 
