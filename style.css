@@ -164,11 +164,6 @@ nav h2 {
     align-content: center;
 }
 
-.logo-text img {
-    width: 100px;
-    vertical-align: middle;
-}
-
 /* Default (Dark Mode) */
 .logo-img {
   width: 120px;
