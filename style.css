@@ -260,7 +260,9 @@ nav h2 {
   text-decoration: none;
   border-radius: 5px;
 }
-
+body.light .btn {
+  color: black;
+}
 .btn:hover {
   background: #0891b2;
 }
