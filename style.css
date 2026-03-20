@@ -81,9 +81,12 @@ body.light .navbar {
 
 /* LOGO */
 body.light .logo img {
-  src: img-url("assets\alokbuilds-logo-light.png");
-  width: 100px;
-  vertical-align: middle;
+    width: 100px;
+    vertical-align: middle;
+}
+
+body.light .logo {
+  content: url("logo-light.png");
 }
 
 /* LINKS */
@@ -164,6 +167,10 @@ nav h2 {
 .logo img {
     width: 100px;
     vertical-align: middle;
+}
+
+.logo {
+  content: url("logo-dark.png");
 }
 
 /* LINKS */
