@@ -80,13 +80,10 @@ body.light .navbar {
 }
 
 /* LOGO */
-body.light .logo-text img {
-    width: 100px;
-    vertical-align: middle;
-}
-
 body.light .logo-img {
+  width: 120px;
   content: url("assets/logo-light.png");
+  transition: 0.3s;
 }
 
 /* LINKS */
