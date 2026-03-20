@@ -27,6 +27,15 @@ body.light a {
   color: #0f172a;
 }
 
+#theme-toggle {
+  background: transparent;
+  border: 1px solid #06b6d4;
+  color: #06b6d4;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* NAVBAR */
 /* NAVBAR BASE */
 .navbar {
