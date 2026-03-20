@@ -81,7 +81,7 @@ body.light .navbar {
 
 /* LOGO */
 body.light .logo img {
-  src: url("assets\alokbuilds-logo-light.png");
+  src: img-url("assets\alokbuilds-logo-light.png");
   width: 100px;
   vertical-align: middle;
 }
