@@ -57,7 +57,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
+//------------------ THEME TOGGLE ------------------
 const toggle = document.getElementById("theme-toggle");
 
 // Load saved theme
