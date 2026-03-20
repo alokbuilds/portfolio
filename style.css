@@ -70,8 +70,11 @@ body.light .navbar {
   background: #8240e6;
 }
 
+body.light .btn {
+  color: black;
+}
+/*------------------------------------
 /* NAVBAR */
-/* NAVBAR BASE */
 .navbar {
   display: flex;
   justify-content: space-between;
