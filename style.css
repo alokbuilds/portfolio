@@ -80,13 +80,13 @@ body.light .navbar {
 }
 
 /* LOGO */
-body.light .logo img {
+body.light .logo-text img {
     width: 100px;
     vertical-align: middle;
 }
 
-body.light .logo {
-  content: url("logo-light.png");
+body.light .logo-img {
+  content: url("assets/logo-light.png");
 }
 
 /* LINKS */
@@ -164,13 +164,16 @@ nav h2 {
     align-content: center;
 }
 
-.logo img {
+.logo-text img {
     width: 100px;
     vertical-align: middle;
 }
 
-.logo {
-  content: url("logo-dark.png");
+/* Default (Dark Mode) */
+.logo-img {
+  width: 120px;
+  content: url("assets/logo-dark.png");
+  transition: 0.3s;
 }
 
 /* LINKS */
