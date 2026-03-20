@@ -541,6 +541,10 @@ section {
   transition: 0.3s;
 }
 
+body.light .project-buttons a {
+  color: black;
+}
+
 .project-buttons a:hover {
   background: #0891b2;
 }
