@@ -56,3 +56,36 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("scrolled");
   }
 });
+
+
+const toggleBtn = document.getElementById("theme-toggle");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("light");
+
+  // Icon change
+  if (document.body.classList.contains("light")) {
+    toggleBtn.innerText = "☀️";
+  } else {
+    toggleBtn.innerText = "🌙";
+  }
+});
+
+// Load saved theme
+if (localStorage.getItem("theme") === "light") {
+  document.body.classList.add("light");
+  toggleBtn.innerText = "☀️";
+}
+
+// Toggle + save
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("light");
+
+  if (document.body.classList.contains("light")) {
+    localStorage.setItem("theme", "light");
+    toggleBtn.innerText = "☀️";
+  } else {
+    localStorage.setItem("theme", "dark");
+    toggleBtn.innerText = "🌙";
+  }
+});

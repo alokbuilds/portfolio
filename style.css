@@ -1,8 +1,30 @@
 body {
-  margin: 0;
-  font-family: Arial;
   background: #020617;
   color: #e2e8f0;
+  font-family: Arial;
+  transition: 0.3s;
+  margin: 0;
+}
+/* LIGHT MODE */
+body.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* Cards */
+body.light .project-card,
+body.light .skill-card {
+  background: #ffffff;
+}
+
+/* Navbar */
+body.light .navbar {
+  background: #ffffff;
+}
+
+/* Links */
+body.light a {
+  color: #0f172a;
 }
 
 /* NAVBAR */
