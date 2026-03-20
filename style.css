@@ -72,7 +72,7 @@ body.light .navbar {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  background: rgba(255, 255, 255, 0.8);
+  background: #f8fafc;
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
