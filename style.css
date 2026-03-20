@@ -52,9 +52,9 @@ input:checked + .slider::before {
   background: #0f172a;
 }
 
-/* 🌞 LIGHT MODE */
+/*----------- 🌞 LIGHT MODE -----------*/
 
-/* LIGHT MODE */
+/* Body */
 body.light {
   background: #f8fafc;
   color: black;
@@ -74,7 +74,13 @@ body.light .navbar {
 body.light .btn {
   color: black;
 }
-/*------------------------------------
+
+body.light .btn.outline {
+  border: 1px solid #8240e6;
+}
+
+/*----------- 🌙 DARK MODE -----------*/
+
 /* NAVBAR */
 .navbar {
   display: flex;
