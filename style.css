@@ -1,9 +1,8 @@
+
 body {
   background: #020617;
-  color: #e2e8f0;
-  font-family: Arial;
+  color: white;
   transition: 0.3s;
-  margin: 0;
 }
 
 /* SWITCH */
@@ -54,9 +53,11 @@ input:checked + .slider::before {
 }
 
 /* 🌞 LIGHT MODE */
+
+/* LIGHT MODE */
 body.light {
   background: #f8fafc;
-  color: #0f172a;
+  color: black;
 }
 
 /* Cards */
