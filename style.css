@@ -380,6 +380,13 @@ section {
   animation: float 3s ease-in-out infinite;
 }
 
+body.light .about-image img {
+  width: 80%;
+  max-width: 350px;
+  content: url("assets/about-img-light.png");
+  animation: float 3s ease-in-out infinite;
+}
+
 /* FLOAT ANIMATION */
 @keyframes float {
   0% { transform: translateY(0px); }
