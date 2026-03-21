@@ -164,7 +164,7 @@ nav h2 {
 
 /* Default (Dark Mode) */
 .logo-img {
-  width: 120px;
+  width: 80px;
   content: url("assets/logo-dark.png");
   transition: 0.3s;
 }
