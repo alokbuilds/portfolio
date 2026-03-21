@@ -82,7 +82,7 @@ body.light .navbar {
 
 /* LOGO */
 body.light .logo-img {
-  width: 80px;
+  width: 100px;
   content: url("assets/logo-light.png");
   transition: 0.3s;
 }
