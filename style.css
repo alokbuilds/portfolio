@@ -219,7 +219,7 @@ nav h2 {
 
 /* SCROLL EFFECT (optional glow) */
 .navbar.scrolled {
-  box-shadow: 0 5px 20px rgb(20, 112, 255);
+  box-shadow: 0 5px 20px rgba(6, 182, 212, 0.2);
 }
 
 /* HERO */
