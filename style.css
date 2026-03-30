@@ -500,7 +500,7 @@ body.light .about-image img {
   transition: 0.5s;
 }
 
-body.light .project-img img {
+body.light .project-img .img-dark {
   width: 100%;
   content: url("assets/project2-light.png");
   transition: 0.5s;
