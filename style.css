@@ -383,7 +383,7 @@ section {
 body.light .about-image img {
   width: 80%;
   max-width: 350px;
-  content: url("assets/about-img.webp");
+  content: url("assets/about-img-light.webp");
   animation: float 3s ease-in-out infinite;
 }
 
